@@ -1,0 +1,1 @@
+const express=require('express'); const app=express(); app.get('/',(_,res)=>res.send('ChatVib API')); app.listen(3001);
